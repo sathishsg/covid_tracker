@@ -45,7 +45,6 @@ function processData(response) {
         statesData.push(stateObject);
         return true;
     })
-    console.log('statesObject===>',statesData)
     return statesData;
 }
 
